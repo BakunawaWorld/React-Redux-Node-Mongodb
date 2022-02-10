@@ -4,7 +4,7 @@
   "scripts": {
     "start": "npm start",
     "watch": "npm run watch",
-    "build": "npm run build",
+    "build": "NODE_ENV=production webpack",
     "connect": "npm run connect",
     "db-list": "ps wuax | grep mongo"
   },
