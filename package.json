@@ -2,10 +2,10 @@
   "name": "react-redux-node-mongodb",
   "version": "2.2.0",
   "scripts": {
-    "start": "nodemon ./server/index.js",
-    "watch": "webpack --watch",
-    "build": "NODE_ENV=production webpack",
-    "connect": "sudo mongod",
+    "start": "npm start",
+    "watch": "npm run watch",
+    "build": "npm run build",
+    "connect": "npm run connect",
     "db-list": "ps wuax | grep mongo"
   },
   "nodemonConfig": {
